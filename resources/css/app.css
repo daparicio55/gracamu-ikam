@@ -1,0 +1,74 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../views/**/*.blade.php';
+
+@theme {
+    --font-sans: 'Plus Jakarta Sans', 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-display: 'Cinzel', serif;
+
+    /* Tonos Café / Espresso / Tostado */
+    --color-espresso-950: #0a0604;
+    --color-espresso-900: #120906;
+    --color-espresso-850: #1a0e0a;
+    --color-espresso-800: #26150f;
+    --color-espresso-750: #331d15;
+    --color-espresso-700: #42251a;
+    --color-espresso-600: #593223;
+    --color-espresso-500: #75422e;
+
+    /* Tonos Rojo Café / Borgoña */
+    --color-coffee-950: #170709;
+    --color-coffee-900: #290b0f;
+    --color-coffee-800: #431218;
+    --color-coffee-700: #631a23;
+    --color-coffee-600: #85222f;
+    --color-coffee-500: #a32b3b;
+
+    /* Tonos Dorado / Ámbar / Cobre */
+    --color-gold-900: #46340a;
+    --color-gold-700: #876518;
+    --color-gold-600: #b58925;
+    --color-gold-500: #d4a737;
+    --color-gold-400: #e2be5c;
+    --color-gold-300: #ebd288;
+
+    /* Tonos Selva Amazónica (+10% luminosidad verde vivo) */
+    --color-jungle-950: #0c2016;
+    --color-jungle-900: #12291d;
+    --color-jungle-850: #183626;
+    --color-jungle-800: #1f4331;
+    --color-jungle-700: #295a42;
+    --color-jungle-600: #367556;
+    --color-jungle-500: #469670;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar equilibrado en selva amazónica y toques de café */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0c2016;
+}
+::-webkit-scrollbar-thumb {
+    background: #295a42;
+    border: 1px solid #593223;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #d4a737;
+}
+
+/* Clases de textura de granos de café */
+.bg-coffee-texture {
+    background-image: url('/images/brand/coffee-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

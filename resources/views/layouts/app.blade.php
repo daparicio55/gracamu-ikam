@@ -18,25 +18,11 @@
     <meta property="og:image" content="{{ asset('images/brand/logo-gracamu.png') }}">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('images/brand/logo-gracamu.png') }}">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="{{ asset('images/brand/logo-gracamu.png') }}">  
 
     <!-- Styles & Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-    <style>
-        .font-display { font-family: 'Cinzel', serif; }
-        .font-serif-title { font-family: 'Playfair Display', Georgia, serif; }
-        .font-body { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
-        
-        .glow-gold {
-            box-shadow: 0 0 25px rgba(212, 167, 55, 0.25);
-        }
-    </style>
 </head>
 <body class="bg-[#0c2016] text-[#eef7f2] font-body antialiased selection:bg-[#d4a737] selection:text-[#0c2016] min-h-screen flex flex-col justify-between">
 

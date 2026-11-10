@@ -541,7 +541,7 @@
                             </span>
                             <h3 class="text-lg sm:text-xl font-bold text-white">Dr. Mario Y. Torrejón Arellanos</h3>
                             <p class="text-xs text-[#9ab0a4] leading-relaxed">
-                                Director General del IESTP de Excelencia Perú Japón. Liderazgo institucional, respaldo a la investigación tecnológica y articulación con entidades regionales y nacionales.
+                                Director General del IES PÚBLICO de Excelencia Perú Japón. Liderazgo institucional, respaldo a la investigación tecnológica y articulación con entidades regionales y nacionales.
                             </p>
                             <div class="p-2 rounded-lg bg-[#0c2016] border border-[#295a42]/50 text-[11px] text-[#d4a737]">
                                 <strong>Aporte Clave:</strong> Conducción estratégica y viabilidad institucional del proyecto.
